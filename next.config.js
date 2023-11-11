@@ -6,19 +6,19 @@ module.exports = {
   eslint: {
     // dirs: ['components', 'layouts', 'lib', 'pages']
   },
-  async headers() {
-    return [
-      {
-        source: '/:path*{/}?',
-        headers: [
-          {
-            key: 'Permissions-Policy',
-            value: 'interest-cohort=()'
-          }
-        ]
-      }
-    ]
-  },
+  // async headers() {
+  //   return [
+  //     {
+  //       source: '/:path*{/}?',
+  //       headers: [
+  //         {
+  //           key: 'Permissions-Policy',
+  //           value: 'interest-cohort=()'
+  //         }
+  //       ]
+  //     }
+  //   ]
+  // },
   transpilePackages: ['dayjs']
   // webpack: (config, { dev, isServer }) => {
   //   // Replace React with Preact only in client production build
