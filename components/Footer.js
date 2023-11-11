@@ -19,9 +19,8 @@ const Footer = ({ fullWidth }) => {
             © {BLOG.author} {from === y || !from ? y : `${from} - ${y}`}
           </p>
           {/* <Vercel /> */}
-          {/* <div class="flex justify-center mt-8 space-x-6"> */}
+          <div class="flex align-baseline justify-between">
           {/* https://tw-elements.com/docs/standard/components/social-buttons/ */}
-          <div>
             {/* <a href="#" class="text-gray-400 hover:text-gray-500">
                 <span class="sr-only">Instagram</span>
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
